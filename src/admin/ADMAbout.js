@@ -2,7 +2,7 @@ import React from 'react'
 
 const ADMAbout = () => {
   return (
-    <div>DMA</div>
+    <div>Admin about</div>
   )
 }
 
