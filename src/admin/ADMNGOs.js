@@ -13,7 +13,7 @@ const ADMNGOs = () => {
   const handleAccept = async (e) =>{
     const ngo_id = e.target.value;
     try{
-      const res = await axios.get(`http://localhost:5000/api/admin/${ngo_id}`);
+      const res = await axios.get(`https://capstone-server-inde.onrender.com/api/admin/${ngo_id}`);
       // console.log(res?.data?.message);
       toast.success(res?.data?.message);
     }catch(err){
@@ -25,7 +25,7 @@ const ADMNGOs = () => {
   const handleReject = async (e) =>{
     const ngo_id = e.target.value;
     try{
-      const res = await axios.delete(`http://localhost:5000/api/admin/${ngo_id}`);
+      const res = await axios.delete(`https://capstone-server-inde.onrender.com/api/admin/${ngo_id}`);
       console.log(res);
       toast.success(res?.data?.message);
       window.location.reload();
@@ -40,7 +40,7 @@ const ADMNGOs = () => {
     const sendRequest = async () => {
       setIsLoading(true);
       try {
-        const data = await axios.get(`http://localhost:5000/api/admin/getngos`);
+        const data = await axios.get(`https://capstone-server-inde.onrender.com/api/admin/getngos`);
         console.log(data?.data);
         //     // console.log(data?.data?.ridArr[0]?.ridArr);
         setnArr(data?.data?.ngoArr);
