@@ -1,0 +1,28 @@
+.place-form {
+    color: black;
+}
+
+.place-form h1 {
+    font-size: 2em;
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+.place-form div input {
+    width: 80%;
+    border-radius: 4px;
+}
+
+
+.form-group p{
+    color: red;
+}
+
+.place-form div p {
+    color: red;
+} 
