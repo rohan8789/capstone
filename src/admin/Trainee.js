@@ -15,7 +15,7 @@ const Trainee = () => {
     const r_id = e.target.value;
     console.log(r_id, "rohan")
     try {
-      const res = await axios.get(`http://localhost:5000/api/admin/reg/${r_id}`);
+      const res = await axios.get(`https://capstone-server-inde.onrender.com/api/admin/reg/${r_id}`);
       console.log(res);
       toast.success(res?.data?.message);
     } catch (err) {
@@ -27,7 +27,7 @@ const Trainee = () => {
   const handleReject = async (e) => {
     const r_id = e.target.value;
     try {
-      const res = await axios.delete(`http://localhost:5000/api/admin/reg/${r_id}`);
+      const res = await axios.delete(`https://capstone-server-inde.onrender.com/api/admin/reg/${r_id}`);
       console.log(res);
       toast.success(res?.data?.message);
       window.location.reload();
@@ -44,7 +44,7 @@ const Trainee = () => {
     const sendRequest = async () => {
       setIsLoading(true);
       try {
-        const data = await axios.get(`http://localhost:5000/api/admin/getrids`);
+        const data = await axios.get(`https://capstone-server-inde.onrender.com/api/admin/getrids`);
         console.log(data?.data);
         setrArr(data?.data?.regArr);
         setIsLoading(false);
