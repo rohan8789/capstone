@@ -37,7 +37,7 @@ const AdminLogin = () => {
   const sendRequest = async () =>{
     setIsLoading(true);
     try{
-      const res = await axios.post(`http://localhost:5000/api/admin/login`, {
+      const res = await axios.post(`https://capstone-server-inde.onrender.com/api/admin/login`, {
         aadhar:loginForm.aadhar,
         password:loginForm.password
       });
