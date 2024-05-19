@@ -14,7 +14,7 @@ const Status = () => {
         const sendRequest = async () =>{
           setIsLoading(true);
           try{
-            const data = await axios.get(`http://localhost:5000/api/regusers/formlist/${userId}`);
+            const data = await axios.get(`https://capstone-server-inde.onrender.com/api/regusers/formlist/${userId}`);
             // console.log(data?.data?.ridArr?.ridArr)
             console.log(data?.data)
             // console.log(data?.data?.ridArr?.ridArr);
@@ -28,9 +28,7 @@ const Status = () => {
         }
         sendRequest();
     }, [])
-    console.log("orib")
-    console.log("forgive me", formInfo)
-    console.log("Biro")
+    
     if (formInfo === undefined || rArr === undefined) {
       return (
         <>
