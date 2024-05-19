@@ -44,7 +44,7 @@ const AdminRegistration = () => {
     setIsLoading(true);
     try {
       console.log("i am here");
-      const res = await axios.post(`http://localhost:5000/api/admin/signup`, {
+      const res = await axios.post(`https://capstone-server-inde.onrender.com/api/admin/signup`, {
         name: registerForm.name,
         aadhar: registerForm.aadhar,
         password: registerForm.password,
