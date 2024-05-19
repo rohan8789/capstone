@@ -54,7 +54,7 @@ const Registration = () => {
     setIsLoading(true);
     try { 
       console.log("i am here");
-      const res= await axios.post(`http://localhost:5000/api/users/signup`, {
+      const res= await axios.post(`https://capstone-server-inde.onrender.com/api/users/signup`, {
         name:registerForm.name,
         email:registerForm.email,
         dob:registerForm.dob,
