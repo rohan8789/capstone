@@ -15,7 +15,7 @@ const Detailed = () => {
       const sendRequest = async () => {
         setIsLoading(true);
         try {
-          const data = await axios.get(`http://localhost:5000/api/regusers/formlist/${userId}/${formId}`);
+          const data = await axios.get(`https://capstone-server-inde.onrender.com/api/regusers/formlist/${userId}/${formId}`);
           console.log(data);
           setFormInfo(data?.data?.users);
           setIsLoading(false);
