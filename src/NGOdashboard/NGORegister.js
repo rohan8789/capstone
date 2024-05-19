@@ -46,7 +46,7 @@ const NGORegister = () => {
     setIsLoading(true);
     try {
       console.log("bitch bc")
-      const res = await axios.post(`http://localhost:5000/api/ngo/signup`, {
+      const res = await axios.post(`https://capstone-server-inde.onrender.com/api/ngo/signup`, {
         name: formData.name,
         regno: formData.regno,
         dob: formData.dob,
@@ -57,10 +57,7 @@ const NGORegister = () => {
         uid:auth.uid,
         status:"pending"
       });
-      console.log(res?.data?.message);
-      
       toast.success(res?.data?.message);
-      console.log("My name is data");
       setIsLoading(false);
       navigate(`/ngostatus/${auth.uid}`);
     } catch (error) {
