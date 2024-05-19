@@ -13,7 +13,7 @@ const NGOStatus = () => {
       setIsLoading(true);
       try {
         console.log("hii");
-        const data = await axios.get(`http://localhost:5000/api/ngo/formlist/ngolist`);
+        const data = await axios.get(`https://capstone-server-inde.onrender.com/api/ngo/formlist/ngolist`);
         console.log(data?.data);
         //     // console.log(data?.data?.ridArr[0]?.ridArr);
         setnArr(data?.data?.details);
