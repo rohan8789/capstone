@@ -65,7 +65,7 @@ function Register() {
       fData.append("training", formData.training);
       fData.append("uid", auth.uid);
       fData.append("status", "pending");
-      const data = await axios.post(`http://localhost:5000/api/regusers`, fData);
+      const data = await axios.post(`https://capstone-server-inde.onrender.com/api/regusers`, fData);
       toast.success(data?.data?.message);
       navigate(`/status/${auth.uid}`);
     }catch(err){
