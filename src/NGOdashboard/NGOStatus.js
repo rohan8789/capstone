@@ -15,7 +15,7 @@ const NGOStatus = () => {
       console.log("HII modi ji")
       setIsLoading(true);
       try {
-        const data = await axios.get(`http://localhost:5000/api/ngo/formlist/${userId}`);
+        const data = await axios.get(`https://capstone-server-inde.onrender.com/api/ngo/formlist/${userId}`);
         console.log(data?.data)
     //     // console.log(data?.data?.ridArr[0]?.ridArr);
         setnArr(data?.data?.nidArr);
@@ -28,7 +28,6 @@ const NGOStatus = () => {
     };
     sendRequest();
   }, []);
-  console.log("babe", formInfo, nArr)
   if (formInfo === undefined || nArr === undefined) {
     return (
       <>
