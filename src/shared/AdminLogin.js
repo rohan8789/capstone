@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { validate } from "../utility/validators";
 import { AuthContext } from "../context/auth-context";
+import LoadingSpinner from '../shared/LoadingSpinner';
 
 const AdminLogin = () => {
   const auth = useContext(AuthContext);
@@ -69,7 +70,9 @@ const AdminLogin = () => {
     }
   };
   return (
-
+    <>
+    {isLoading && <LoadingSpinner className='container-3'/>}
+    {!isLoading && 
     <form className="container p-2 rounded-2 place-form " onSubmit={submitHandler}>
           <h1 className="text-center">Login</h1>
           <div className="row mb-2 d-flex justify-content-center">
@@ -133,7 +136,8 @@ const AdminLogin = () => {
             </div>
           </div>
       </form>
-    
+    }
+   </>
   );
 };
 
