@@ -86,7 +86,7 @@ const AdminRegistration = () => {
 
   return (
     <>
-      {isLoading && <LoadingSpinner className="container-1" />}
+      {isLoading && <LoadingSpinner className="container-4" />}
       {!isLoading && (
         <form
           className="container p-2 rounded-2 place-form border border-black"
