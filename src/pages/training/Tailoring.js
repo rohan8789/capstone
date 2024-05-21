@@ -78,7 +78,7 @@ const Tailoring = () => {
       <section className="call-to-action py-5 text-center">
         <div className="container">
           <h2 className="mb-4">Ready to Start Your Tailoring Journey?</h2>
-          <a href="#enroll" className="btn btn-lg btn-primary">
+          <a href="/register" className="btn btn-lg btn-primary">
             Enroll Now
           </a>
         </div>
