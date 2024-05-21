@@ -32,7 +32,7 @@ const Agriculture = () => {
                   Learn how to grow your own fresh vegetables at home,
                   regardless of your experience level.
                 </p>
-                <a href="#" class="btn btn-primary">
+                <a href="/register" class="btn btn-primary">
                   Learn More
                 </a>
               </div>
@@ -51,7 +51,7 @@ const Agriculture = () => {
                   Gain the knowledge and skills to raise healthy and productive
                   livestock while caring for the environment.
                 </p>
-                <a href="#" class="btn btn-primary">
+                <a href="/register" class="btn btn-primary">
                   Learn More
                 </a>
               </div>
