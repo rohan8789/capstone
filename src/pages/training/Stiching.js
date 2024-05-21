@@ -19,7 +19,7 @@ const Stiching = () => {
           <div className="row row-cols-1 row-cols-md-2 align-items-center">
             <div className="col-md-6 order-md-2">
               <img
-                src="https://kettocdn.gumlet.io/media/campaign/592000/592831/image/621f158e1c54e.jpeg?w=400&dpr=2.6"
+                src="https://5.imimg.com/data5/SELLER/Default/2024/2/390959401/DX/GA/EF/104640872/men-tailoring-training.jpg"
                 className="img-fluid rounded-3"
                 alt="Stitching Class"
               />
