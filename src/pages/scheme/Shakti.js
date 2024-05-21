@@ -2,6 +2,7 @@ import React from 'react'
 
 const Shakti = () => {
   return (
+    <>
     <div className="mt-5 container mission-shakti">
       <header className="row justify-content-center">
         <h1 className="col-md-auto display-1">Mission Shakti</h1>
@@ -96,6 +97,7 @@ const Shakti = () => {
         </p>
       </footer>
     </div>
+  </>
   )
 }
 
