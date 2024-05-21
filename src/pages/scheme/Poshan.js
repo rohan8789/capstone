@@ -3,6 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 
 const Poshan = () => {
+  const navigate = useNavigate();
   return (
     <div className="mission-poshan">
       <section className="hero d-flex align-items-center">
