@@ -74,7 +74,7 @@ const Stiching = () => {
       <section className="call-to-action py-5 text-center">
         <div className="container">
           <h2>Ready to Start Stitching?</h2>
-          <a href="#enroll" className="btn btn-lg btn-primary">
+          <a href="/register" className="btn btn-lg btn-primary">
             Enroll Now
           </a>
         </div>
