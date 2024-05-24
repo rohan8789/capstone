@@ -13,9 +13,9 @@
 
 # Important points:
 1. This website has three dashboards.
-	1.1. Public 
-	1.2. NGO
-	1.3. Admin
+	1.1. Public  
+	1.2. NGO  
+	1.3. Admin  
 
 2. It has two Registration and Login interface. Via first Interface, Public and NGO entity can register on the website. By second interface, Admin entity can register and manage both NGO and public entity.  
 4. Routes and dashboards for each entities are made private with the help of localStorage.  
