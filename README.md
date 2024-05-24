@@ -11,6 +11,23 @@
       express, cors, nodemon, mongoose, bcryptjs, jsonwebtokens, multer, uuid, path  
 
 
+# Important points:
+1. This website has three dashboards.
+	1.1. Public 
+	1.2. NGO
+	1.3. Admin
+
+2. It has two Registration and Login interface. Via first Interface, Public and NGO entity can register on the website. By second interface, Admin entity can register and manage both NGO and public entity.  
+4. Routes and dashboards for each entities are made private with the help of localStorage.  
+5. When public user login to the website, they can register for a particular training which is further handled by admin of the website.  
+6. When NGO login, they can register their NGO to the website which is further handled by admins.  
+7. After, Registration for training / registration for NGO, users can see a pending status in front of their registration form which is dynamically updated after admin accept/rejects the form.  
+8. Form validation is applied to all the forms on both client and server side.
+Image upload feature is implemented via which user can upload image through his local computer.  
+
+
+
+
 
 # future scope: 
 1. I have not made server side routes private. Although, data is properly validated on server side.
