@@ -1,10 +1,12 @@
 Project Walk through:
 
-1. We have 3 Dashboards: Public, NGO, Admin.
-   a. Respective routes are kept private until user is loggedIn.  
+1. We have 3 Dashboards: Public, NGO, Admin.  
+   a. Respective routes are kept private until user is loggedIn.    
    b. Each Dashboard and its details persists on page reload.  
    c. One-to-many relation is established between user and training program form and NGO and its NGO registration form as well.  
    d. One-to-one relation between admin-user.
+   e. User/admin/NGOs login as well as their dashboard persists.
+   f. tried to maintain ACID properties with the help of transactions while writing database queries.
 
 
    
