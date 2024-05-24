@@ -108,7 +108,7 @@ function Register() {
 
   return (
     <>
-    {isLoading && <LoadingSpinner/>}
+    {isLoading && <LoadingSpinner className="container-4"/>}
     {!isLoading &&
     <div className="container mt-5">
       <h2 className="text-center mb-4">Registration Form</h2>
