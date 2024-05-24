@@ -45,7 +45,7 @@ function App() {
     const data_1 = JSON.parse(localStorage.getItem("adm-data"))
     if(data_1){
       if(data_1?.aid && data_1?.adminToken && data_1?.dashboard){
-        auth.adm_login(data_1?.adminId, data_1?.adminToken, data_1?.dashboard);
+        auth.adm_login(data_1?.aid, data_1?.adminToken, data_1?.dashboard);
       }
     }
   }, [auth.login, auth.adm_login]);
