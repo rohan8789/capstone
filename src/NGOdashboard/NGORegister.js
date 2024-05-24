@@ -100,7 +100,7 @@ const NGORegister = () => {
 
   return (
     <>
-    {isLoading && <LoadingSpinner/>}
+    {isLoading && <LoadingSpinner className="container-4"/>}
     {!isLoading &&
     <div className="container mt-5">
       <h1 className="text-center">NGO Registration Form</h1>
