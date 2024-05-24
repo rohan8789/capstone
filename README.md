@@ -33,8 +33,17 @@ Project Walk through:
 
 
 4. lets first see user functionalities.  
-   User can login and explore all the training and internship programs provided by NGOs and government. They are redirected to a Trainee/Internship registration form when they explore. Registration form functionalities:  
-   3.1. Again proper custom validation is applied.  
-   3.2. Here user can upload their documents in image(jpg/jpeg/png) format. maximum size of 500kb is allowed.  
-   3.3. After registration. the form details is sent to admin and user is redirected to "STATUS" page to see the status of their application.  
-   3.4. The status remains pending until admin accepts the user form. Once, accepted it is dynamically updated.  
+   3.1. Once user is loggedIn. he can explore user related private routes but cannot see admin routes. He can explore training and internship programs provided by NGOs and government. They are redirected to a Trainee/Internship registration form when they explore.  
+   3.2. Again proper custom validation is applied.  
+   3.3. Here user can upload their documents in image(jpg/jpeg/png) format. maximum size of 500kb is allowed.  
+   3.4. After registration. the form details is sent to admin and user is redirected to "STATUS" page to see the status of their application.  
+   3.5. The status remains pending until admin accepts the user form. Once, accepted it is dynamically updated.    
+   (a). After user login    
+   ![Screenshot (155)](https://github.com/rohan8789/capstone/assets/74501400/1c4076f6-777a-4101-b742-ebf8012633e8)
+   (b). Registration form.    
+   ![Screenshot (156)](https://github.com/rohan8789/capstone/assets/74501400/c6d050de-c5b5-44cf-82e5-86e1a79e3084)
+   (c). After registration, redirected to status page. Here, details are present. Here status is pending which will remain pending until admin acccpts the request.  
+   ![Screenshot (158)](https://github.com/rohan8789/capstone/assets/74501400/6406c406-42c6-4679-917e-6098e48da6b4)
+   
+
+
