@@ -80,3 +80,14 @@ Project Walk through:
 ![Screenshot (164)](https://github.com/rohan8789/capstone/assets/74501400/92c18846-77f9-43e0-b242-fb01d184c4d9)
 
 
+
+
+
+5. Admin Dashboard and functionalities:  
+   5.1. access to accept or reject NGO form request.  
+   5.2. access to accept or reject user request for registration.  
+(a). Registered NGOs
+![Screenshot (165)](https://github.com/rohan8789/capstone/assets/74501400/857d2272-4465-4d10-8ddf-d45abcedd0ea)
+(b). Registered Users and accepting their request.
+![Screenshot (166)](https://github.com/rohan8789/capstone/assets/74501400/6aaceac9-9628-4d5b-a3d8-d9ad28572975)
+
