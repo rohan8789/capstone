@@ -1,13 +1,13 @@
 # Methodology & technology used:  
-1. Methodology:
+1. Methodology:  
       Agile method of software development.  
-3. Tools:
+3. Tools:  
       VS code, Node JS runtime environment, Postman, mongoDB atlas, Github and Gitbash.  
-4. Technologies:
+4. Technologies:  
       ReactJS, ExpressJS, mongoose ORM, NodeJS.  
-5. Frontend libraries:
+5. Frontend libraries:  
       React, React-scripts, react-dom, react-router-dom, bootstrap, axios, react-toastify.  
-6. Server side libraries:
+6. Server side libraries:  
       express, cors, nodemon, mongoose, bcryptjs, jsonwebtokens, multer, uuid, path  
 
 
