@@ -39,7 +39,6 @@ function App() {
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("userData"));
     if(data){
-      console.log("Please ban ja na", data);
       if (data?.userId && data?.token && data?.dashboard) {
         auth.login(data?.userId, data?.token, data?.dashboard);
       }
