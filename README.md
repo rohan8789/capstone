@@ -12,10 +12,13 @@
 
 
 
+#future scope: 
+1. I have not made server side routes private. Although, data is properly validated on server side.
+2. There is no direct relation between USERS and NGOs. This is something that can be implemented.
 
 
 
-Project Walk through:
+#Project Walk through:
 
 1. We have 3 Dashboards: Public, NGO, Admin.  
    a. Respective routes are kept private until user is loggedIn.    
