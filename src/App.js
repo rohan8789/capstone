@@ -35,7 +35,6 @@ import PageNotFound from "./shared/PageNotFound";
 
 function App() {
   const auth = useContext(AuthContext);
-  console.log(auth);
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem("userData"));
     if(data){
