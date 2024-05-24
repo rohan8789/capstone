@@ -62,7 +62,7 @@ Project Walk through:
 
 
 
-4. Lets see NGO functionalities:
+4. Lets see NGO functionalities:  
    4.1. Any NGO can register themselves on the website via unique NGO registration number.  
    4.2. Again proper validation is done.  
    4.3. NGO details, After registration is sent to admin.  
