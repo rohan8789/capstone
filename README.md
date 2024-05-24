@@ -12,7 +12,7 @@
 
 
 # Important points:
-1. This website has three dashboards.
+1. This website has three dashboards.  
 	1.1. Public  
 	1.2. NGO  
 	1.3. Admin  
