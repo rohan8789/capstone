@@ -8,6 +8,8 @@ import { validate } from "../utility/validators";
 import {AuthContext} from "../context/auth-context"
 import LoadingSpinner from "../shared/LoadingSpinner";
 
+import '../index.css';
+
 const NGORegister = () => {
   const navigate = useNavigate();
   const auth = useContext(AuthContext);
