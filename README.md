@@ -108,3 +108,5 @@ Project Walk through:
 (b). Registered Users and accepting their request.
 ![Screenshot (166)](https://github.com/rohan8789/capstone/assets/74501400/6aaceac9-9628-4d5b-a3d8-d9ad28572975)
 
+(c). After rejecting/accepting users:  
+![Screenshot (167)](https://github.com/rohan8789/capstone/assets/74501400/c1fd4993-8081-4cf1-af50-09ab5900eeb2)
