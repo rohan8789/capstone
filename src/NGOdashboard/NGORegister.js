@@ -3,8 +3,10 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 import { validate } from "../utility/validators";
 import {AuthContext} from "../context/auth-context"
+import LoadingSpinner from "../shared/LoadingSpinner";
 
 const NGORegister = () => {
   const navigate = useNavigate();
@@ -97,6 +99,9 @@ const NGORegister = () => {
   };
 
   return (
+    <>
+    {isLoading && <LoadingSpinner/>}
+    {!isLoading &&
     <div className="container mt-5">
       <h1 className="text-center">NGO Registration Form</h1>
       <form onSubmit={handleSubmit}>
@@ -193,6 +198,8 @@ const NGORegister = () => {
         </button>
       </form>
     </div>
+  }
+  </>
   );
 };
 
