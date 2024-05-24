@@ -21,7 +21,7 @@ Project Walk through:
 
 
 
-2. User Login and Signup page with Validation:
+2. User Login and Signup page with Validation:  
    2.1. Proper custom validation to restrict invalid input.  
    2.2. Data is sent to backend and further saved to database.  
    2.3. Used transactions to maintain consistency and atomicity of data in case when multipe query statements are involved.
