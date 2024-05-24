@@ -1,6 +1,6 @@
 Project Walk through:
 
-1. We have 3 Dashboards: Public, NGO, Admin. Each Dashboard and its details persists on page reload.
+1. We have 3 Dashboards: Public, NGO, Admin. Each Dashboard and its details persists on page reload.  
    1.1 User Dashboard:
    ![Screenshot (151)](https://github.com/rohan8789/capstone/assets/74501400/fc4c6e8f-e2b8-41d1-a084-cccd85ebb6a6)
 
