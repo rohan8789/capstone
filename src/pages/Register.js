@@ -1,12 +1,14 @@
 import React, { useContext, useState } from "react";
 import { validate } from "../utility/validators";
 import { toast } from "react-toastify";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 
-import '../shared/Auth.css'
-import axios from "axios";
 import { AuthContext } from "../context/auth-context";
-import { useNavigate } from "react-router-dom";
+import LoadingSpinner from "../shared/LoadingSpinner";
+
+import '../shared/Auth.css'
 
 function Register() {
   const [isLoading, setIsLoading] = useState();
@@ -66,9 +68,11 @@ function Register() {
       fData.append("uid", auth.uid);
       fData.append("status", "pending");
       const data = await axios.post(`https://capstone-server-inde.onrender.com/api/regusers`, fData);
+      setIsLoading(false);
       toast.success(data?.data?.message);
       navigate(`/status/${auth.uid}`);
     }catch(err){
+      setIsLoading(false);
       toast.error(err?.response?.data?.message)
       console.log(err);
     }
@@ -88,10 +92,7 @@ function Register() {
       aadharimg:x.aadharimg,
       training:x.training,
     });
-    console.log("Hello")
-    console.log(formError)
     if (x.name === "" && x.email === "" && x.fname==="" && x.mname==="" && x.phno==="" && x.address==="" && x.aadharimg===null && x.training===""){
-      console.log("hiiiiiiiiii")
       sendRequest();
     } else {
       x.name="";
@@ -106,6 +107,9 @@ function Register() {
   };
 
   return (
+    <>
+    {isLoading && <LoadingSpinner/>}
+    {!isLoading &&
     <div className="container mt-5">
       <h2 className="text-center mb-4">Registration Form</h2>
 
@@ -230,6 +234,8 @@ function Register() {
         </button>
       </form>
     </div>
+    }
+  </>      
   );
 }
 
