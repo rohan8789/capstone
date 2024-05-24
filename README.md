@@ -21,7 +21,7 @@ Project Walk through:
 
 
 
-3. User Login and Signup page with Validation:
+2. User Login and Signup page with Validation:
    ![Screenshot (154)](https://github.com/rohan8789/capstone/assets/74501400/744c38ce-f837-4bf9-9bde-da0be6b8aae5)
    2.1. Proper custom validation to restrict invalid input.  
    2.2. Data is sent to backend and further saved to database.  
@@ -30,4 +30,8 @@ Project Walk through:
 
 
 
-4. 
+3. lets first see user functionalities. User can login and explore all the training and internship programs provided by NGOs and government. They are redirected to a Trainee/Internship registration form when they explore. Registration form functionalities:  
+   3.1. Again proper custom validation is applied.  
+   3.2. Here user can upload their documents in image(jpg/jpeg/png) format. maximum size of 500kb is allowed.  
+   3.3. After registration. the form details is sent to admin and user is redirected to "STATUS" page to see the status of their application.  
+   3.4. The status remains pending until admin accepts the user form. Once, accepted it is dynamically updated.  
