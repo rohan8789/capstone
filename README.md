@@ -63,11 +63,11 @@ Project Walk through:
 
 
 4. Lets see NGO functionalities:
-   4.1. Any NGO can register themselves on the website via unique NGO registration number.
-   4.2. Again proper validation is done.
-   4.3. NGO details, After registration is sent to admin.
-   4.4. If rejected by admin, details is no longer in database.
-   4.5. If accepted, they are listed in NGO list.
+   4.1. Any NGO can register themselves on the website via unique NGO registration number.  
+   4.2. Again proper validation is done.  
+   4.3. NGO details, After registration is sent to admin.  
+   4.4. If rejected by admin, details is no longer in database.  
+   4.5. If accepted, they are listed in NGO list.  
     
 
 (a). Validation:  
