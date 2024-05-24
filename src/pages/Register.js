@@ -9,6 +9,7 @@ import { AuthContext } from "../context/auth-context";
 import LoadingSpinner from "../shared/LoadingSpinner";
 
 import '../shared/Auth.css'
+import '../index.css'
 
 function Register() {
   const [isLoading, setIsLoading] = useState();
