@@ -1,6 +1,10 @@
 Project Walk through:
 
-1. We have 3 Dashboards: Public, NGO, Admin. Respective routes are kept private until user is loggedIn. Each Dashboard and its details persists on page reload.
+1. We have 3 Dashboards: Public, NGO, Admin.
+   a. Respective routes are kept private until user is loggedIn.  
+   b. Each Dashboard and its details persists on page reload.  
+   c. One-to-many relation is established between user and training program form and NGO and its NGO registration form as well.  
+   d. One-to-one relation between admin-user.
 
 
    
@@ -21,7 +25,7 @@ Project Walk through:
 
 
 
-2. User Login and Signup page with Validation:  
+3. User Login and Signup page with Validation:  
    2.1. Proper custom validation to restrict invalid input.
    2.2. Women/Girls less than 16 cannot register.  
    2.3. Data is sent to backend and further saved to database.  
@@ -48,5 +52,29 @@ Project Walk through:
    
 ![Screenshot (159)](https://github.com/rohan8789/capstone/assets/74501400/274b6d7f-c3f5-4d52-a1e3-0691565352e1)
 
-![Screenshot (160)](https://github.com/rohan8789/capstone/assets/74501400/cbe25ced-ab1b-405e-8a59-43f11a971846)
+![Screenshot (160)](https://github.com/rohan8789/capstone/assets/74501400/cbe25ced-ab1b-405e-8a59-43f11a971846)  
+
+
+
+
+
+
+
+
+
+4. Lets see NGO functionalities:
+   4.1. Any NGO can register themselves on the website via unique NGO registration number.
+   4.2. Again proper validation is done.
+   4.3. NGO details, After registration is sent to admin.
+   4.4. If rejected by admin, details is no longer in database.
+   4.5. If accepted, they are listed in NGO list.
+    
+
+(a). Validation:  
+![Screenshot (161)](https://github.com/rohan8789/capstone/assets/74501400/c947121b-a1fb-469c-9bc9-c09c90b25374)
+(b). After registration, redirected to status page.  
+![Screenshot (163)](https://github.com/rohan8789/capstone/assets/74501400/8881969d-a467-406f-8d67-ab85b36cc793)
+(c). view
+![Screenshot (164)](https://github.com/rohan8789/capstone/assets/74501400/92c18846-77f9-43e0-b242-fb01d184c4d9)
+
 
