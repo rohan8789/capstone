@@ -44,6 +44,8 @@ Project Walk through:
    ![Screenshot (156)](https://github.com/rohan8789/capstone/assets/74501400/c6d050de-c5b5-44cf-82e5-86e1a79e3084)
    (c). After registration, redirected to status page. Here, details are present. Here status is pending which will remain pending until admin acccpts the request.  
    ![Screenshot (158)](https://github.com/rohan8789/capstone/assets/74501400/6406c406-42c6-4679-917e-6098e48da6b4)
+   (d). On clicking on view, you can see form details. You will not see image because to upload image on render, it is required to give credit card details and payment to upload documents or image. Although, it works on localhost.
    
+![Screenshot (159)](https://github.com/rohan8789/capstone/assets/74501400/274b6d7f-c3f5-4d52-a1e3-0691565352e1)
 
 
