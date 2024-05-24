@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
     localStorage.setItem("adm-data", JSON.stringify({ aid: aid, adminToken:token, dashboard:state }));
   }, []);
   const adm_logout = useCallback(() => {
-    setToken(null);
+    setAdminToken(null);
     setAid(null);
     localStorage.removeItem("adm-data");
   }, []);
